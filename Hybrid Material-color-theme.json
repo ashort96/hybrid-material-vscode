@@ -58,16 +58,6 @@
 			}
 		},
 		{
-			"name": "Storage",
-			"scope": [
-				"storage.type",
-				"storage.modifier"
-			],
-			"settings": {
-				"foreground": "#de935f"
-			}
-		},
-		{
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
@@ -216,16 +206,6 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FF5370"
 			}
 		},
@@ -645,10 +625,20 @@
 		{
 			"name": "Light Blue Color Group",
 			"scope": [
+				"keyword.control.conditional",
+				"keyword.control.flow",
+				"keyword.control.for",
 				"keyword.control.if",
+				"keyword.control.loop",
 				"keyword.control.rust",
+				"keyword.control.trycatch",
 				"keyword.control.directive.include",
-				"keyword.control.return"
+				"keyword.control.return",
+				"keyword.control.switch",
+				"storage.modifier",
+				"storage.type",
+				"storage.type.function",
+				"storage.type.js",
 			],
 			"settings": {
 				"foreground": "#81a2be"
@@ -678,28 +668,50 @@
 				"foreground": "#de935f",
 			}
 		},
-				// Red
-				{
-					"name": "Red Color Group",
-					"scope": [
-						"keyword.operator.misc.rust",
-						"punctuation.section",
-						"punctuation.terminator",
-						
-					],
-					"settings":{
-						"foreground": "#cc6666",
-					}
-				},
+		// Red
+		{
+			"name": "Red Color Group",
+			"scope": [
+				"keyword.operator.misc.rust",
+				"punctuation.section",
+				"punctuation.terminator",
+				"storage.type.class",
+				"variable.language"
+				
+			],
+			"settings":{
+				"foreground": "#cc6666",
+			}
+		},
+		// White
+		{
+			"name": "White Color Group",
+			"scope": [
+				"source.rust",
+				"variable",
+				"variable.other",
+				"variable.other.object",
+				"variable.other.readwrite",
+				"variable.parameter",
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#C5C8C6"
+			}
+
+		},
 		// Italic
 		{
 			"name": "Italic Group",
 			"scope": [
+				"keyword.control.conditional",
 				"keyword.control.do",
 				"keyword.control.for",
 				"keyword.control.if",
 				"keyword.control.while",
 				"keyword.control.rust",
+				"keyword.control.switch",
+				"keyword.control.trycatch",
 			],
 			"settings": {
 				"fontStyle": "italic"
