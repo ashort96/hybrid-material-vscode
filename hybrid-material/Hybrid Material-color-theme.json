@@ -634,11 +634,14 @@
 				"keyword.control.trycatch",
 				"keyword.control.directive.include",
 				"keyword.control.return",
+				"keyword.control.statement.sourcepawn",
 				"keyword.control.switch",
+				"keyword.sourcepawn",
 				"storage.modifier",
 				"storage.type",
 				"storage.type.function",
 				"storage.type.js",
+				"storage.type.rust"
 			],
 			"settings": {
 				"foreground": "#81a2be"
@@ -662,7 +665,8 @@
 			"scope": [
 				"storage.type.built-in",
 				"storage.type.core.rust",
-				"storage.class.std.rust"
+				"storage.class.std.rust",
+				"support.type.core.sourcepawn"
 			],
 			"settings": {
 				"foreground": "#de935f",
@@ -676,6 +680,7 @@
 				"punctuation.section",
 				"punctuation.terminator",
 				"storage.type.class",
+				"support.constant.core.sourcepawn",
 				"variable.language"
 				
 			],
@@ -710,6 +715,7 @@
 				"keyword.control.if",
 				"keyword.control.while",
 				"keyword.control.rust",
+				"keyword.control.statement.sourcepawn",
 				"keyword.control.switch",
 				"keyword.control.trycatch",
 			],
