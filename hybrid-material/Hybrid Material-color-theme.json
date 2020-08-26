@@ -626,9 +626,12 @@
 			"name": "Light Blue Color Group",
 			"scope": [
 				"keyword.control.conditional",
+				"keyword.control.export.ts",
 				"keyword.control.flow",
 				"keyword.control.for",
+				"keyword.control.from",
 				"keyword.control.if",
+				"keyword.control.import",
 				"keyword.control.loop",
 				"keyword.control.rust",
 				"keyword.control.trycatch",
@@ -704,6 +707,16 @@
 				"foreground": "#C5C8C6"
 			}
 
+		},
+		// Yellow
+		{
+			"name": "Yellow Color Group",
+			"scope" : [
+				"storage.type.ts"
+			],
+			"settings": {
+				"foreground": "#f0c674",
+			}
 		},
 		// Italic
 		{
